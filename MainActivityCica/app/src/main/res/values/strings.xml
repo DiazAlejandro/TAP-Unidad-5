@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MainActivityCica</string>
+    <string name="c_lculo_del_importe_de_consumo_de_agua">Cálculo del Importe de Consumo de Agua</string>
+    <string name="lectura_anterior_mt3">Lectura Anterior (mt3):</string>
+</resources>
