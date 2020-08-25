@@ -1,0 +1,2 @@
+rootProject.name='Concurred Place'
+include ':app'
