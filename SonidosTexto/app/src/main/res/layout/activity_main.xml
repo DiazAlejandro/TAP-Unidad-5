@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tFrase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:gravity="center"
+            android:text="--- Frase ---"
+            android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginEnd="50sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
+            android:gravity="center"
+            android:text="Seleccione Una Imagen por Fila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="#000000"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110sp"
+            android:layout_marginBottom="110sp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/bMorro"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/morro" />
+
+                <ImageButton
+                    android:id="@+id/bPolar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/polar" />
+
+                <ImageButton
+                    android:id="@+id/bGato"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/gato" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/bCamina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/caminar" />
+
+                <ImageButton
+                    android:id="@+id/bComida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/comida" />
+
+                <ImageButton
+                    android:id="@+id/bEstudia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/estudia" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/bBosque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/bosque" />
+
+                <ImageButton
+                    android:id="@+id/bCasa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/casa" />
+
+                <ImageButton
+                    android:id="@+id/bCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fraseAudible"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/coche" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="restaurar"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="600sp"
+            android:text="Restablecer" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="reproducir"
+            android:layout_marginLeft="165sp"
+            android:layout_marginTop="600sp"
+            android:text="Repetir" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="salir"
+            android:layout_marginLeft="280sp"
+            android:layout_marginTop="600sp"
+            android:layout_marginRight="20sp"
+            android:text="Salir" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
