@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lugares Concurridos ITOAXACA</string>
+    <string name="txtSelect">Seleccione Una Opción</string>
+    <string name="txtReco">Recomendaciones para atender COVID -19</string>
+    <string name="txtRecos">Respirar</string>
+    <string name="txtInfo">Información acerca de esta Aplicacion</string>
+    <string name="back">Regresar</string>
+    <string name="rutes">Rutas Disponibles</string>
+    <string name="txtRutes">Seleccione Una Ruta</string>
+    <string name="txtEmergency">Números de Emergencia</string>
+    <string name="rec1">Lavado de manos siempre.</string>
+    <string name="rec2">Usar jabon y agua o gel.</string>
+    <string name="rec3">Guardar distancia de cualquier persona en lugares publicos o transporte publico</string>
+    <string name="rec4">No tocarse con las manos ojos, naris o boca.</string>
+    <string name="rec5">Usar mascarilla en lugares concurridos.</string>
+    <string name="rec6">Curbir nariz u boca con el codo.</string>
+    <string name="rec7">Quedarse en casa.</string>
+    <string name="rec8">Si presentas algún sintoma, llama a los números de emergencia.</string>
+    <string name="information">Instituto Tecnológico de Oaxaca \\n\\nEsta aplicacion fue desarrollada por:\\nDiaz Ruiz Alejandro. \\n\\nPara el proyecto de Inglés en el periodo:\\nFebrero - Junio 2020\\n\\nEsta aplicación es solamente el diseño y funciones generales porque falta la implementación en el mundo real.</string>
+    <string name="test">¿Cuándo ir al Doctor?</string>
+    <string name="sim">Seleccione algún síntoma</string>
+    <string name="q1">Tos / Estornudos</string>
+    <string name="q2">Fiebre o Escalofríos</string>
+    <string name="q3">Dolor de Cabeza</string>
+    <string name="q4">Dolor de Garganta</string>
+    <string name="q5">Diarrea</string>
+    <string name="q6">Conjuntivitis</string>
+    <string name="q7">Pérdida del gusto u olfato</string>
+    <string name="q8">Dificultada para Respirar</string>
+    <string name="q9">Cansancio</string>
+    <string name="q10">Escurrimiento Nasal</string>
+    <string name="sim2">Acompañado por</string>
+    <string name="accept">Aceptar</string>
+</resources>

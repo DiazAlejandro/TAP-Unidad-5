@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">    Concurred Place ITOAXACA</string>
+    <string name="txtSelect">Select Any Option</string>
+    <string name="txtReco">Recommendations to attend COVID-19</string>
+    <string name="txtRecos">Respired</string>
+    <string name="txtRutes">Select Any Route</string>
+
+    <string name="txtInfo">Information About This Application</string>
+    <string name="txtEmergency">Emergency Numbers</string>>
+    <string name="back">Return</string>
+    <string name="rutes">Available Routes</string>
+
+    <string name="test">When to go to the doctor?</string>
+    <string name="sim">Select any symptoms</string>
+    <string name="sim2">Accompanied by</string>
+    <string name="q1">Cough / Sneeze</string>
+    <string name="q2">Fever or chills</string>
+    <string name="q3">Headache</string>
+    <string name="q4">Sore throat</string>
+    <string name="q5">Diarrhoea</string>
+    <string name="q6">Conjunctivitis</string>
+    <string name="q7">Loss of taste or smell</string>
+    <string name="q8">Difficulty breathing</string>
+    <string name="q9">Tiredness</string>
+    <string name="q10">Runny nose</string>
+
+
+    <string name="rec1">Clean your hands always.</string>
+    <string name="rec2">Use soap and water or gel.</string>
+    <string name="rec3">Safe distance from anyone in public place or public transport.</string>
+    <string name="rec4">Don´t touch with your hands eyes, nouse or mount.</string>
+    <string name="rec5">Use mask in concurred places.</string>
+    <string name="rec6">Cover nouse and mounth with your elbow.</string>
+    <string name="rec7">Stay at home.</string>
+    <string name="rec8">If you present any symptoms, call emergency numbers</string>
+
+    <string name="information">Instituto Tecnológico de Oaxaca \n\nThis application was developed by:\nDiaz Ruiz Alejandro. \n\nTo Proyect English in period:\nFebruary - June 2020. \n\nThe app is only desing and general functions because, lack the implementations in real world.</string>
+    <string name="accept">Accept</string>
+
+</resources>
